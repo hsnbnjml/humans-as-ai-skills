@@ -33,14 +33,6 @@ All skills follow the same shape:
 5. **Structured output** — the finding, the lens that flags it, the evidence, the cost of ignoring it, distinct options with trade-offs, one question back
 6. **Rules** — no praise openers, no roleplay, no invented data, concise, reply in the user's language
 
-## Install
-
-```bash
-git clone https://github.com/hsnbnjml/humans-as-ai-skills.git
-```
-
-Then copy any `skills/<name>/` folder into your agent's skills directory — the `folder/SKILL.md` format works with skill-based agents (OpenCode, Claude, and similar). For plain-LLM use, paste a skill's SKILL.md into custom instructions and adapt the trigger line to your platform.
-
 ## Package a human — contribution checklist
 
 1. Pick one human with clearly written frameworks (one anchor author; co-authors allowed in parentheses)
