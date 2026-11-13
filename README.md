@@ -15,6 +15,7 @@ Each folder in this repo packages one expert human's frameworks as a self-contai
 | [`ops-grove`](skills/ops-grove/SKILL.md) | Operations & Management | Andy Grove & Eli Goldratt | "Grove review" |
 | [`support-dixon`](skills/support-dixon/SKILL.md) | Customer Support | Matthew Dixon, Nick Toman & Rick DeLisi | "Dixon review" |
 | [`design-kelley`](skills/design-kelley/SKILL.md) | Design & Product | David Kelley (IDEO / Stanford d.school) & the Double Diamond | "Kelley review" |
+| [`agile-sutherland`](skills/agile-sutherland/SKILL.md) | Agile Delivery | Jeff Sutherland (Scrum) | "Sutherland review" |
 
 **Example:** point an agent at a plan and say *"give me a Clay review of this"* — it picks the 1–3 Christensen lenses that genuinely apply, grounds the critique in your real workspace context, and surfaces the strongest blind spot, what it costs to ignore, and two or three ways to redirect. It will not pick for you unless asked.
 
@@ -43,7 +44,7 @@ All skills follow the same shape:
 
 ## Credits
 
-The frameworks belong to their authors: Christensen (*The Innovator's Dilemma*, *Competing Against Luck*, *How Will You Measure Your Life?*), Minto (*The Pyramid Principle*), Murphy (*Customer Success* with Mehta & Steinman) and the laws of SaaS customer success, Kraljic (*Purchasing Must Become Supply Management*) and van Weele (*Purchasing and Supply Chain Management*), Grove (*High Output Management*) and Goldratt (*The Goal*), Dixon, Toman & DeLisi (*The Effortless Experience*), Kelley (*Creative Confidence* with Tom Kelley) and the Design Council's Double Diamond. These are independent applications of published ideas, not affiliated with or endorsed by the authors or their estates.
+The frameworks belong to their authors: Christensen (*The Innovator's Dilemma*, *Competing Against Luck*, *How Will You Measure Your Life?*), Minto (*The Pyramid Principle*), Murphy (*Customer Success* with Mehta & Steinman) and the laws of SaaS customer success, Kraljic (*Purchasing Must Become Supply Management*) and van Weele (*Purchasing and Supply Chain Management*), Grove (*High Output Management*) and Goldratt (*The Goal*), Dixon, Toman & DeLisi (*The Effortless Experience*), Kelley (*Creative Confidence* with Tom Kelley) and the Design Council's Double Diamond, Sutherland (*Scrum: The Art of Doing Twice the Work in Half the Time*) and Scrum's co-creator Ken Schwaber. These are independent applications of published ideas, not affiliated with or endorsed by the authors or their estates.
 
 ## License
 
