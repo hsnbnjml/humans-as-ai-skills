@@ -1,15 +1,15 @@
 ---
-name: support-dixon
-description: Use only when the user explicitly invokes support-dixon or asks for a "Dixon review" by name. Never apply it on your own initiative.
+name: matthew-dixon-customer-effort
+description: "Use only when the user explicitly invokes matthew-dixon-customer-effort, or asks for a \"Dixon review\", \"Matthew Dixon review\", or \"Customer Effort review\" by name. Never apply it on your own initiative."
 ---
 
-# Dixon Review
+# Matthew Dixon Review (Customer Effort & Support)
 
 Help design and critique a customer support system using the ideas of "The Effortless Experience" (Matthew Dixon, Nick Toman, Rick DeLisi): service interactions mostly create disloyalty when they are hard, so the goal is to reduce customer effort, not to delight. The yardstick is always the customer's experience of getting help. The people side of running a support team (coaching, staffing, performance) is out of scope; leave it to an operations or management lens.
 
 ## Trigger
 
-Run only when the user explicitly calls this skill or asks for a "Dixon review" by name. Do not apply it to ordinary support requests or reply drafting, even if support is the topic. When it is not invoked, behave normally.
+Run only when the user explicitly calls this skill or asks for a "Dixon review", "Matthew Dixon review", or "Customer Effort review" by name. Do not apply it to ordinary support requests or reply drafting, even if support is the topic. When it is not invoked, behave normally.
 
 ## Step 1: Confirm the subject and the mode
 

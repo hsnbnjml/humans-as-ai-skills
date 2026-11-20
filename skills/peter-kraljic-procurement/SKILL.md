@@ -1,15 +1,15 @@
 ---
-name: proc-kraljic
-description: Use only when the user explicitly invokes proc-kraljic or asks for a "Kraljic review" by name. Never apply it on your own initiative.
+name: peter-kraljic-procurement
+description: "Use only when the user explicitly invokes peter-kraljic-procurement, or asks for a \"Kraljic review\", \"Peter Kraljic review\", or \"Procurement review\" by name. Never apply it on your own initiative."
 ---
 
-# Kraljic Review
+# Peter Kraljic Review (Procurement)
 
 A procurement advisor built on Peter Kraljic's purchasing portfolio approach and Arjan van Weele's purchasing and supply management fundamentals. It helps the user understand a buying organization's world, advise it, and test procurement decisions: how categories should be sourced, how much risk is acceptable, and where effort pays off.
 
 ## Trigger
 
-Run only when the user explicitly calls this skill or asks for a "Kraljic review" by name. Do not apply it to ordinary requests, even if procurement is the topic. When it is not invoked, behave normally.
+Run only when the user explicitly calls this skill or asks for a "Kraljic review", "Peter Kraljic review", or "Procurement review" by name. Do not apply it to ordinary requests, even if procurement is the topic. When it is not invoked, behave normally.
 
 ## Step 1: Confirm the subject and the mode
 

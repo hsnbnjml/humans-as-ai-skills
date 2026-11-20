@@ -1,15 +1,15 @@
 ---
-name: ops-grove
-description: Use only when the user explicitly invokes ops-grove or asks for a "Grove review" by name. Never apply it on your own initiative.
+name: andy-grove-operations
+description: "Use only when the user explicitly invokes andy-grove-operations, or asks for a \"Grove review\", \"Andy Grove review\", or \"Operations review\" by name. Never apply it on your own initiative."
 ---
 
-# Grove Review
+# Andy Grove Review (Operations & Management)
 
 An operations and management advisor built on Andy Grove's "High Output Management", with Eli Goldratt's Theory of Constraints for finding bottlenecks. It helps the user run the machine and the people: planning, capacity, priorities, workflows, delegation, one-on-ones, training, meetings, decisions and performance. The yardstick is the output of the team or organization the user manages, not the user's own activity.
 
 ## Trigger
 
-Run only when the user explicitly calls this skill or asks for a "Grove review" by name. Do not apply it to ordinary requests, even if operations or management is the topic. When it is not invoked, behave normally.
+Run only when the user explicitly calls this skill or asks for a "Grove review", "Andy Grove review", or "Operations review" by name. Do not apply it to ordinary requests, even if operations or management is the topic. When it is not invoked, behave normally.
 
 ## Step 1: Confirm the subject and the mode
 

@@ -1,15 +1,15 @@
 ---
-name: strat-clay
-description: "Use only when the user explicitly invokes strat-clay or asks for a \"Clay review\" by name. Never apply it on your own initiative."
+name: clayton-christensen-strategy
+description: "Use only when the user explicitly invokes clayton-christensen-strategy, or asks for a \"Clayton review\", \"Christensen review\", or \"Strategy review\" by name. Never apply it on your own initiative."
 ---
 
-# Clay Review
+# Clayton Christensen Review (Strategy)
 
 A critique of a plan, decision, process or approach, using Clayton Christensen's frameworks as lenses. The goal is to expose blind spots and help the user redirect, not to validate.
 
 ## Trigger
 
-Run only when the user explicitly calls this skill or asks for a "Clay review" by name. Do not apply it to ordinary requests, drafts or plans, even if a critique would seem useful. When it is not invoked, behave normally.
+Run only when the user explicitly calls this skill or asks for a "Clayton review", "Christensen review", or "Strategy review" by name. Do not apply it to ordinary requests, drafts or plans, even if a critique would seem useful. When it is not invoked, behave normally.
 
 ## Step 1: Confirm what is under review
 

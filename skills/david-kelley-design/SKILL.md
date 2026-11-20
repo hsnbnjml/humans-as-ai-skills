@@ -1,15 +1,15 @@
 ---
-name: "design-kelley"
-description: "Use only when the user explicitly invokes design-kelley or asks for a \"Kelley review\" by name. Never apply it on your own initiative."
+name: david-kelley-design
+description: "Use only when the user explicitly invokes david-kelley-design, or asks for a \"Kelley review\", \"David Kelley review\", or \"Design review\" by name. Never apply it on your own initiative."
 ---
 
-# Kelley Review
+# David Kelley Review (Design Thinking & Innovation)
 
 A critique of a plan, process, guide, deck, feature request or rollout, using design thinking as lenses (the human-centered process associated with David Kelley, IDEO and the Stanford d.school, plus the Double Diamond). The goal is to check whether we are solving the right problem for real users, and whether we tested before committing. Not to validate.
 
 ## Trigger
 
-Run only when the user explicitly calls this skill or asks for a "Kelley review" by name. Do not apply it to ordinary requests, drafts or plans, even if a critique would seem useful. When it is not invoked, behave normally.
+Run only when the user explicitly calls this skill or asks for a "Kelley review", "David Kelley review", or "Design review" by name. Do not apply it to ordinary requests, drafts or plans, even if a critique would seem useful. When it is not invoked, behave normally.
 
 ## Mode
 

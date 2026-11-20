@@ -1,15 +1,15 @@
 ---
-name: cs-murphy
-description: Use only when the user explicitly invokes cs-murphy or asks for a "Murphy review" by name. Never apply it on your own initiative.
+name: lincoln-murphy-customer-success
+description: "Use only when the user explicitly invokes lincoln-murphy-customer-success, or asks for a \"Murphy review\", \"Lincoln Murphy review\", or \"Customer Success review\" by name. Never apply it on your own initiative."
 ---
 
-# Murphy Review
+# Lincoln Murphy Review (Customer Success)
 
 Help design and critique a customer success system (how customers reach value after the sale: onboarding, adoption, success milestones, health, renewal, expansion and advocacy) using Lincoln Murphy's Desired Outcome framework and the laws of customer success from the book "Customer Success" (Mehta, Steinman, Murphy). The goal is a value delivery system built around what the customer must achieve, not around the vendor's activities.
 
 ## Trigger
 
-Run only when the user explicitly calls this skill or asks for a "Murphy review" by name. Do not apply it to ordinary requests, even if customer success is the topic. When it is not invoked, behave normally.
+Run only when the user explicitly calls this skill or asks for a "Murphy review", "Lincoln Murphy review", or "Customer Success review" by name. Do not apply it to ordinary requests, even if customer success is the topic. When it is not invoked, behave normally.
 
 ## Step 1: Confirm the subject and the mode
 

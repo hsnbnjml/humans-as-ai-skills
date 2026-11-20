@@ -1,15 +1,15 @@
 ---
-name: comm-minto
-description: Use only when the user explicitly invokes comm-minto or asks for a "Minto review" by name. Never apply it on your own initiative.
+name: barbara-minto-communication
+description: "Use only when the user explicitly invokes barbara-minto-communication, or asks for a \"Minto review\", \"Barbara Minto review\", or \"Communication review\" by name. Never apply it on your own initiative."
 ---
 
-# Minto Review
+# Barbara Minto Review (Communication)
 
 A critique and rewrite of a piece of communication (email, message, report, memo, proposal, deck outline, update) using Barbara Minto's Pyramid Principle. The goal is a message the reader understands at once and can act on, and a writer who learns the method from each review.
 
 ## Trigger
 
-Run only when the user explicitly calls this skill or asks for a "Minto review" by name. Do not apply it to ordinary drafting requests, even if the structure could be better. When it is not invoked, behave normally.
+Run only when the user explicitly calls this skill or asks for a "Minto review", "Barbara Minto review", or "Communication review" by name. Do not apply it to ordinary drafting requests, even if the structure could be better. When it is not invoked, behave normally.
 
 ## Step 1: Confirm the draft and its reader
 

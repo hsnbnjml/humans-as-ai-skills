@@ -8,16 +8,20 @@ Each folder in this repo packages one expert human's frameworks as a self-contai
 
 | Skill | Domain | The human | Invoke by |
 |-------|--------|-----------|-----------|
-| [`strat-clay`](skills/strat-clay/SKILL.md) | Strategy | Clayton Christensen | "Clay review" |
-| [`comm-minto`](skills/comm-minto/SKILL.md) | Communication | Barbara Minto | "Minto review" |
-| [`cs-murphy`](skills/cs-murphy/SKILL.md) | Customer Success | Lincoln Murphy | "Murphy review" |
-| [`proc-kraljic`](skills/proc-kraljic/SKILL.md) | Procurement | Peter Kraljic & Arjan van Weele | "Kraljic review" |
-| [`ops-grove`](skills/ops-grove/SKILL.md) | Operations & Management | Andy Grove & Eli Goldratt | "Grove review" |
-| [`support-dixon`](skills/support-dixon/SKILL.md) | Customer Support | Matthew Dixon, Nick Toman & Rick DeLisi | "Dixon review" |
-| [`design-kelley`](skills/design-kelley/SKILL.md) | Design & Product | David Kelley (IDEO / Stanford d.school) & the Double Diamond | "Kelley review" |
-| [`agile-sutherland`](skills/agile-sutherland/SKILL.md) | Agile Delivery | Jeff Sutherland (Scrum) | "Sutherland review" |
+| [`clayton-christensen-strategy`](skills/clayton-christensen-strategy/SKILL.md) | Strategy & Disruption | Clayton Christensen | "Christensen review", "Clayton review" |
+| [`david-kelley-design`](skills/david-kelley-design/SKILL.md) | Design & Innovation | David Kelley (IDEO / Stanford d.school) & Double Diamond | "Kelley review", "Design review" |
+| [`marty-cagan-product`](skills/marty-cagan-product/SKILL.md) | Product Risks & Scope | Marty Cagan (Silicon Valley Product Group) | "Cagan review", "Product risk review" |
+| [`jeff-sutherland-agile`](skills/jeff-sutherland-agile/SKILL.md) | Agile Delivery | Jeff Sutherland (Scrum) | "Sutherland review", "Agile review" |
+| [`april-dunford-positioning`](skills/april-dunford-positioning/SKILL.md) | Product Positioning | April Dunford (*Obviously Awesome*) | "Dunford review", "Positioning review" |
+| [`alex-hormozi-value-pricing`](skills/alex-hormozi-value-pricing/SKILL.md) | Value Pricing & Offers | Alex Hormozi (*$100M Offers*) | "Hormozi review", "Value pricing review" |
+| [`neil-rackham-sales`](skills/neil-rackham-sales/SKILL.md) | Consultative Sales | Neil Rackham (*SPIN Selling*) | "Rackham review", "SPIN review" |
+| [`andy-grove-operations`](skills/andy-grove-operations/SKILL.md) | Operations & Management | Andy Grove & Eli Goldratt | "Grove review", "Operations review" |
+| [`barbara-minto-communication`](skills/barbara-minto-communication/SKILL.md) | Communication | Barbara Minto (*The Pyramid Principle*) | "Minto review", "Communication review" |
+| [`peter-kraljic-procurement`](skills/peter-kraljic-procurement/SKILL.md) | Procurement | Peter Kraljic & Arjan van Weele | "Kraljic review", "Procurement review" |
+| [`lincoln-murphy-customer-success`](skills/lincoln-murphy-customer-success/SKILL.md) | Customer Success | Lincoln Murphy | "Murphy review", "Customer Success review" |
+| [`matthew-dixon-customer-effort`](skills/matthew-dixon-customer-effort/SKILL.md) | Customer Effort & Support | Matthew Dixon, Nick Toman & Rick DeLisi | "Dixon review", "Customer effort review" |
 
-**Example:** point an agent at a plan and say *"give me a Clay review of this"* — it picks the 1–3 Christensen lenses that genuinely apply, grounds the critique in your real workspace context, and surfaces the strongest blind spot, what it costs to ignore, and two or three ways to redirect. It will not pick for you unless asked.
+**Example:** point an agent at a plan and say *"give me a Christensen review of this"* — it picks the 1–3 Christensen lenses that genuinely apply, grounds the critique in your real workspace context, and surfaces the strongest blind spot, what it costs to ignore, and two or three ways to redirect. It will not pick for you unless asked.
 
 ## Why "explicit invocation only"
 
@@ -37,14 +41,14 @@ All skills follow the same shape:
 ## Package a human — contribution checklist
 
 1. Pick one human with clearly written frameworks (one anchor author; co-authors allowed in parentheses)
-2. Follow the shared anatomy above; name the skill `<domain>-<surname>`
+2. Follow the shared anatomy above; name the skill `<firstname>-<lastname>-<specialization>`
 3. The description **must** say: use only when explicitly invoked, never on your own initiative
 4. Use the method, not the persona — no roleplay, no invented quotes or data
 5. Open a PR with the human added to the table above
 
 ## Credits
 
-The frameworks belong to their authors: Christensen (*The Innovator's Dilemma*, *Competing Against Luck*, *How Will You Measure Your Life?*), Minto (*The Pyramid Principle*), Murphy (*Customer Success* with Mehta & Steinman) and the laws of SaaS customer success, Kraljic (*Purchasing Must Become Supply Management*) and van Weele (*Purchasing and Supply Chain Management*), Grove (*High Output Management*) and Goldratt (*The Goal*), Dixon, Toman & DeLisi (*The Effortless Experience*), Kelley (*Creative Confidence* with Tom Kelley) and the Design Council's Double Diamond, Sutherland (*Scrum: The Art of Doing Twice the Work in Half the Time*) and Scrum's co-creator Ken Schwaber. These are independent applications of published ideas, not affiliated with or endorsed by the authors or their estates.
+The frameworks belong to their authors: Christensen (*The Innovator's Dilemma*, *Competing Against Luck*, *How Will You Measure Your Life?*), Kelley (*Creative Confidence* with Tom Kelley) and the Design Council's Double Diamond, Cagan (*Inspired*, *Empowered* with Silicon Valley Product Group), Sutherland (*Scrum: The Art of Doing Twice the Work in Half the Time*) and Ken Schwaber, Dunford (*Obviously Awesome*), Hormozi (*$100M Offers*), Rackham (*SPIN Selling*), Grove (*High Output Management*) and Goldratt (*The Goal*), Minto (*The Pyramid Principle*), Kraljic (*Purchasing Must Become Supply Management*) and van Weele (*Purchasing and Supply Chain Management*), Murphy (*Customer Success* with Mehta & Steinman), Dixon, Toman & DeLisi (*The Effortless Experience*). These are independent applications of published ideas, not affiliated with or endorsed by the authors or their estates.
 
 ## License
 

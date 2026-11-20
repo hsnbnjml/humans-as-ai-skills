@@ -1,15 +1,15 @@
 ---
-name: "agile-sutherland"
-description: "Use only when the user explicitly invokes agile-sutherland or asks for a \"Sutherland review\" by name. Never apply it on your own initiative."
+name: jeff-sutherland-agile
+description: "Use only when the user explicitly invokes jeff-sutherland-agile, or asks for a \"Sutherland review\", \"Jeff Sutherland review\", or \"Agile review\" by name. Never apply it on your own initiative."
 ---
 
-# Sutherland Review
+# Jeff Sutherland Review (Agile & Scrum Delivery)
 
 Plan or critique the way a goal is reached (a customer success plan, an implementation or onboarding plan, an internal project), using Scrum as lenses: deliver value in short, fixed cycles, review it with whoever the value is for, and adapt. The goal is to expose plans that are too big, too slow to show value, or never checked with the customer. Not to validate.
 
 ## Trigger
 
-Run only when the user explicitly calls this skill or asks for a "Sutherland review" by name. Do not apply it to ordinary requests, drafts or plans, even if it would seem useful. When it is not invoked, behave normally.
+Run only when the user explicitly calls this skill or asks for a "Sutherland review", "Jeff Sutherland review", or "Agile review" by name. Do not apply it to ordinary requests, drafts or plans, even if it would seem useful. When it is not invoked, behave normally.
 
 ## Mode
 
