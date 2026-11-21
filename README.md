@@ -20,6 +20,8 @@ Each folder in this repo packages one expert human's frameworks as a self-contai
 | [`peter-kraljic-procurement`](skills/peter-kraljic-procurement/SKILL.md) | Procurement | Peter Kraljic & Arjan van Weele | "Kraljic review", "Procurement review" |
 | [`lincoln-murphy-customer-success`](skills/lincoln-murphy-customer-success/SKILL.md) | Customer Success | Lincoln Murphy | "Murphy review", "Customer Success review" |
 | [`matthew-dixon-customer-effort`](skills/matthew-dixon-customer-effort/SKILL.md) | Customer Effort & Support | Matthew Dixon, Nick Toman & Rick DeLisi | "Dixon review", "Customer effort review" |
+| [`martin-fowler-code-review`](skills/martin-fowler-code-review/SKILL.md) | Code Quality & Refactoring | Martin Fowler & Kent Beck | "Fowler review", "Code smell review", "Refactoring review" |
+| [`richard-feynman-code-translation`](skills/richard-feynman-code-translation/SKILL.md) | Plain-English Code Walkthrough | Richard Feynman (The Feynman Technique) | "Feynman translation", "Plain English code", "Code walkthrough" |
 
 **Example:** point an agent at a plan and say *"give me a Christensen review of this"* — it picks the 1–3 Christensen lenses that genuinely apply, grounds the critique in your real workspace context, and surfaces the strongest blind spot, what it costs to ignore, and two or three ways to redirect. It will not pick for you unless asked.
 
@@ -48,7 +50,7 @@ All skills follow the same shape:
 
 ## Credits
 
-The frameworks belong to their authors: Christensen (*The Innovator's Dilemma*, *Competing Against Luck*, *How Will You Measure Your Life?*), Kelley (*Creative Confidence* with Tom Kelley) and the Design Council's Double Diamond, Cagan (*Inspired*, *Empowered* with Silicon Valley Product Group), Sutherland (*Scrum: The Art of Doing Twice the Work in Half the Time*) and Ken Schwaber, Dunford (*Obviously Awesome*), Hormozi (*$100M Offers*), Rackham (*SPIN Selling*), Grove (*High Output Management*) and Goldratt (*The Goal*), Minto (*The Pyramid Principle*), Kraljic (*Purchasing Must Become Supply Management*) and van Weele (*Purchasing and Supply Chain Management*), Murphy (*Customer Success* with Mehta & Steinman), Dixon, Toman & DeLisi (*The Effortless Experience*). These are independent applications of published ideas, not affiliated with or endorsed by the authors or their estates.
+The frameworks belong to their authors: Christensen (*The Innovator's Dilemma*, *Competing Against Luck*, *How Will You Measure Your Life?*), Kelley (*Creative Confidence* with Tom Kelley) and the Design Council's Double Diamond, Cagan (*Inspired*, *Empowered* with Silicon Valley Product Group), Sutherland (*Scrum: The Art of Doing Twice the Work in Half the Time*) and Ken Schwaber, Dunford (*Obviously Awesome*), Hormozi (*$100M Offers*), Rackham (*SPIN Selling*), Grove (*High Output Management*) and Goldratt (*The Goal*), Minto (*The Pyramid Principle*), Kraljic (*Purchasing Must Become Supply Management*) and van Weele (*Purchasing and Supply Chain Management*), Murphy (*Customer Success* with Mehta & Steinman), Dixon, Toman & DeLisi (*The Effortless Experience*), Fowler (*Refactoring: Improving the Design of Existing Code* with Kent Beck), and Feynman (The Feynman Technique). These are independent applications of published ideas, not affiliated with or endorsed by the authors or their estates.
 
 ## License
 
