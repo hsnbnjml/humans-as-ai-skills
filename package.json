@@ -1,0 +1,19 @@
+{
+  "name": "humans-as-ai-skills",
+  "version": "1.0.0",
+  "description": "A board of expert methods for one decision. 18 expert skills, seated by relevance, disagreements named instead of averaged.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsnbnjml/humans-as-ai-skills.git"
+  },
+  "keywords": [
+    "agent-skills",
+    "ai-agents",
+    "advisory-board",
+    "decision-making",
+    "prompt-engineering",
+    "frameworks"
+  ],
+  "author": "Hasan Shousha",
+  "license": "MIT"
+}
