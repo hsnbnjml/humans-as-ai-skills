@@ -1,5 +1,5 @@
 ---
-name: Advisory Board
+name: "board"
 description: "Convene a board of expert advisors on a business, product, operations, sales, or engineering decision. Use when the user invokes @board, asks what the board or a panel would say, or explicitly requests a multi-expert review."
 ---
 
@@ -15,13 +15,13 @@ Invoking `board` is the user explicitly requesting these reviews. When the board
 seats a human, that human's "use only when explicitly invoked / never on your own
 initiative" rule is satisfied. Load the seated skills and proceed.
 
-## Step 1 — What is being decided
+## Step 1: What is being decided
 
-State the decision in one sentence. If there is no decision — it's a question, a
-lookup, or a task — say so and answer normally. Do not convene a board for work
+State the decision in one sentence. If there is no decision (it's a question, a
+lookup, or a task), say so and answer normally. Do not convene a board for work
 that has no trade-off in it.
 
-## Step 2 — Build the panel
+## Step 2: Build the panel
 
 Select from the human skills advertised to you, using their IDs and descriptions.
 
@@ -33,59 +33,59 @@ seated, they are out.
 - Never seat someone just to fill a panel.
 - If only one human passes, say "this is a review, not a board" and run that one.
 
-## Step 3 — Propose, then wait
+## Step 3: Propose, then wait
 
 Output the panel and stop. One line per seat:
 
 ```
-Convening 3 —
-  Hormozi  — pricing and offer structure
-  Dunford  — positioning and willingness to pay
-  Dixon    — churn and customer effort
+Convening 3:
+  Hormozi:  pricing and offer structure
+  Dunford:  positioning and willingness to pay
+  Dixon:    churn and customer effort
 Go?
 ```
 
 Do not deliberate until the user says go. If they add or remove a name, adjust
 and re-propose once.
 
-## Step 4 — Deliberate
+## Step 4: Deliberate
 
 On go, load each seated skill with the `skill` tool, then give every seat equal
-airtime — not equal length.
+airtime, not equal length.
 
 For each advisor:
 
-1. **Position** — what their method says to do.
-2. **Assumption** — the one assumption the position rests on.
-3. **Falsifier** — what would make them wrong.
+1. **Position:** what their method says to do.
+2. **Assumption:** the one assumption the position rests on.
+3. **Falsifier:** what would make them wrong.
 
 Second round only for advisors who disagree with something already said.
 Advisors who agree stay quiet; agreement is not a contribution.
 
-## Step 5 — Handle conflict
+## Step 5: Handle conflict
 
 Never average. Averaging expert advice produces mush.
 
 For each real disagreement:
 
 1. Name it plainly.
-2. Name why — different metric, time horizon, or assumption.
+2. Name why: different metric, time horizon, or assumption.
 3. Say which one wins under which condition.
 
 If no condition resolves it, present the fork and let the user choose. A clean
 fork beats a fake consensus.
 
-## Step 6 — The board's call
+## Step 6: The board's call
 
 End with:
 
-- **Call** — the recommended path, one or two sentences.
-- **Strongest dissent** — the best argument against it, one sentence.
-- **What would change it** — the fact or threshold that flips the call.
+- **Call:** the recommended path, one or two sentences.
+- **Strongest dissent:** the best argument against it, one sentence.
+- **What would change it:** the fact or threshold that flips the call.
 
 ## Rules
 
-- Attribute by method, not persona: "the value-pricing lens says…", not "I am
+- Attribute by method, not persona: "the value-pricing lens says...", not "I am
   Hormozi". Never invent quotes or positions.
 - Every claim must come from a loaded skill. If a skill did not load, say so and
   continue with the rest.

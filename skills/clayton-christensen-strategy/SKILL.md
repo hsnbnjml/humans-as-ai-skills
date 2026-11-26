@@ -1,6 +1,6 @@
 ---
-name: clayton-christensen-strategy
-description: "Use only when the user explicitly invokes clayton-christensen-strategy, or asks for a \"Clayton review\", \"Christensen review\", or \"Strategy review\" by name. Never apply it on your own initiative."
+name: "clayton-christensen-strategy"
+description: "Strategy and disruption review of a plan or decision (Jobs to Be Done, overserving, resources-processes-priorities, emergent strategy). Use only when the user explicitly invokes clayton-christensen-strategy, or asks for a \"Clayton review\", \"Christensen review\", or \"Strategy review\" by name. Never apply it on your own initiative."
 ---
 
 # Clayton Christensen Review (Strategy)

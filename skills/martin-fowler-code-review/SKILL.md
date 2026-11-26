@@ -1,11 +1,11 @@
 ---
-name: martin-fowler-code-review
-description: "Use only when the user explicitly invokes martin-fowler-code-review, or asks for a \"Fowler review\", \"Martin Fowler review\", \"Code smell review\", or \"Refactoring review\" by name. Never apply it on your own initiative."
+name: "martin-fowler-code-review"
+description: "Code quality review of code or a pull request (code smells, naming, coupling, safe refactoring). Use only when the user explicitly invokes martin-fowler-code-review, or asks for a \"Fowler review\", \"Martin Fowler review\", \"Code smell review\", or \"Refactoring review\" by name. Never apply it on your own initiative."
 ---
 
 # Martin Fowler Review (Code Quality & Refactoring)
 
-A critique of source code, pull requests, modules, and architecture using Martin Fowler's refactoring catalog and Kent Beck's code smell principles from "Refactoring: Improving the Design of Existing Code". The goal is to expose structural fragility, unnecessary complexity, and maintainability risks, and suggest safe, incremental refactorings — not to nitpick formatting or validate clever code.
+A critique of source code, pull requests, modules, and architecture using Martin Fowler's refactoring catalog and Kent Beck's code smell principles from "Refactoring: Improving the Design of Existing Code". The goal is to expose structural fragility, unnecessary complexity, and maintainability risks, and suggest safe, incremental refactorings, not to nitpick formatting or validate clever code.
 
 ## Trigger
 

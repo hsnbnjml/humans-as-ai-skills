@@ -1,11 +1,11 @@
 ---
-name: adam-shostack-threat-modeling
-description: "Use only when the user explicitly invokes adam-shostack-threat-modeling, or asks for a \"Shostack review\", \"Adam Shostack review\", \"Threat model\", \"Threat modeling review\", or \"STRIDE review\" by name. Never apply it on your own initiative."
+name: "adam-shostack-threat-modeling"
+description: "Defensive threat modeling of a system design, architecture or data flow (trust boundaries, STRIDE). Use only when the user explicitly invokes adam-shostack-threat-modeling, or asks for a \"Shostack review\", \"Adam Shostack review\", \"Threat model\", \"Threat modeling review\", or \"STRIDE review\" by name. Never apply it on your own initiative."
 ---
 
 # Adam Shostack Review (Threat Modeling & STRIDE)
 
-A critique of system design, architecture, and data flow using Adam Shostack's threat modeling method and the STRIDE taxonomy from "Threat Modeling: Designing for Security". The goal is to find where trust breaks down, name the threats that actually apply, and rank them — not to produce a generic security checklist or a penetration test.
+A critique of system design, architecture, and data flow using Adam Shostack's threat modeling method and the STRIDE taxonomy from "Threat Modeling: Designing for Security". The goal is to find where trust breaks down, name the threats that actually apply, and rank them, not to produce a generic security checklist or a penetration test.
 
 ## Trigger
 
@@ -25,17 +25,17 @@ Choose the lenses that genuinely apply. If the system is small and the boundary 
 
 **1. Decompose and find trust boundaries**
 - What are the processes, data stores, and external entities?
-- Where does data cross from less trusted to more trusted — browser to API, API to database, service to service, admin to tenant?
+- Where does data cross from less trusted to more trusted: browser to API, API to database, service to service, admin to tenant?
 - Which boundaries actually authenticate, and which rely on network position alone?
 
 **2. STRIDE sweep**
 For each element and boundary, ask which of these truly applies:
-- **Spoofing** — can an attacker claim another identity?
-- **Tampering** — can data be changed in transit or at rest?
-- **Repudiation** — can an action be denied because nothing recorded it?
-- **Information disclosure** — what leaks through errors, logs, timing, or over-broad responses?
-- **Denial of service** — what is cheap to exhaust?
-- **Elevation of privilege** — can a lower role reach a higher one?
+- **Spoofing:** can an attacker claim another identity?
+- **Tampering:** can data be changed in transit or at rest?
+- **Repudiation:** can an action be denied because nothing recorded it?
+- **Information disclosure:** what leaks through errors, logs, timing, or over-broad responses?
+- **Denial of service:** what is cheap to exhaust?
+- **Elevation of privilege:** can a lower role reach a higher one?
 
 **3. Assets and attacker goals**
 - What is worth stealing, changing, or breaking here?
@@ -47,7 +47,7 @@ For each element and boundary, ask which of these truly applies:
 - Rank by what an attacker gains, not by how clever the attack is.
 
 **5. Mitigations and residual risk**
-- For each top threat: prevent, detect, or respond — and which of the three is missing.
+- For each top threat: prevent, detect, or respond, and which of the three is missing.
 - What risk remains after the mitigation, and who accepts it?
 
 ## Step 4: Write the review

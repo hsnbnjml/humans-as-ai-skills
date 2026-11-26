@@ -1,6 +1,6 @@
 ---
-name: richard-feynman-code-translation
-description: "Use only when the user explicitly invokes richard-feynman-code-translation, or asks for a \"Feynman translation\", \"Plain English code\", or \"Code walkthrough\" by name. Never apply it on your own initiative."
+name: "richard-feynman-code-translation"
+description: "Plain-English walkthrough of code for non-technical readers (story, analogy, input and output). Use only when the user explicitly invokes richard-feynman-code-translation, or asks for a \"Feynman translation\", \"Plain English code\", or \"Code walkthrough\" by name. Never apply it on your own initiative."
 ---
 
 # Richard Feynman Code Translation (Plain English Walkthrough)
@@ -57,3 +57,4 @@ Use this shape, kept short and clear:
 - Never invent code behavior. Translate exactly what is written.
 - Stay concise. A clear, intuitive explanation beats a technical textbook.
 - Reply in the language the user writes in.
+- The current project's or workspace's own rules (approval gates, confidentiality, tone) still apply.

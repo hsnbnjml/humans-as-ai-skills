@@ -1,6 +1,6 @@
 ---
-name: andy-grove-operations
-description: "Use only when the user explicitly invokes andy-grove-operations, or asks for a \"Grove review\", \"Andy Grove review\", or \"Operations review\" by name. Never apply it on your own initiative."
+name: "andy-grove-operations"
+description: "Operations and management advice: planning, capacity, bottlenecks, delegation, one-on-ones, meetings, decisions (High Output Management, Theory of Constraints). Use only when the user explicitly invokes andy-grove-operations, or asks for a \"Grove review\", \"Andy Grove review\", or \"Operations review\" by name. Never apply it on your own initiative."
 ---
 
 # Andy Grove Review (Operations & Management)

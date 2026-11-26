@@ -1,6 +1,6 @@
 ---
-name: jeff-sutherland-agile
-description: "Use only when the user explicitly invokes jeff-sutherland-agile, or asks for a \"Sutherland review\", \"Jeff Sutherland review\", or \"Agile review\" by name. Never apply it on your own initiative."
+name: "jeff-sutherland-agile"
+description: "Agile delivery planning or review of an implementation, onboarding or project plan (short goal-driven cycles reviewed with the customer). Use only when the user explicitly invokes jeff-sutherland-agile, or asks for a \"Sutherland review\", \"Jeff Sutherland review\", or \"Agile review\" by name. Never apply it on your own initiative."
 ---
 
 # Jeff Sutherland Review (Agile & Scrum Delivery)

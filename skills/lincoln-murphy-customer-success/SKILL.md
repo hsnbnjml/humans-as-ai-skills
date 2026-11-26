@@ -1,6 +1,6 @@
 ---
-name: lincoln-murphy-customer-success
-description: "Use only when the user explicitly invokes lincoln-murphy-customer-success, or asks for a \"Murphy review\", \"Lincoln Murphy review\", or \"Customer Success review\" by name. Never apply it on your own initiative."
+name: "lincoln-murphy-customer-success"
+description: "Customer success review or design: onboarding, adoption, success milestones, health, renewal (Desired Outcome). Use only when the user explicitly invokes lincoln-murphy-customer-success, or asks for a \"Murphy review\", \"Lincoln Murphy review\", or \"Customer Success review\" by name. Never apply it on your own initiative."
 ---
 
 # Lincoln Murphy Review (Customer Success)

@@ -1,6 +1,6 @@
 ---
-name: april-dunford-positioning
-description: "Use only when the user explicitly invokes april-dunford-positioning, or asks for a \"Dunford review\", \"April Dunford review\", or \"Positioning review\" by name. Never apply it on your own initiative."
+name: "april-dunford-positioning"
+description: "Positioning review of a pitch, value proposition, landing page or category (competitive alternatives, unique value, best-fit customer). Use only when the user explicitly invokes april-dunford-positioning, or asks for a \"Dunford review\", \"April Dunford review\", or \"Positioning review\" by name. Never apply it on your own initiative."
 ---
 
 # April Dunford Review (Positioning)
@@ -71,3 +71,4 @@ Use this shape, kept short:
 - Never invent buyer data, metrics, or market size. If evidence is thin, say so plainly.
 - Stay concise. A sharp positioning critique beats a lengthy essay.
 - Reply in the language the user writes in.
+- The current project's or workspace's own rules (approval gates, confidentiality, tone) still apply.

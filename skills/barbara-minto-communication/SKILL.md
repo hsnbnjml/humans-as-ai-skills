@@ -1,6 +1,6 @@
 ---
-name: barbara-minto-communication
-description: "Use only when the user explicitly invokes barbara-minto-communication, or asks for a \"Minto review\", \"Barbara Minto review\", or \"Communication review\" by name. Never apply it on your own initiative."
+name: "barbara-minto-communication"
+description: "Communication review and rewrite of an email, memo, report or deck outline (Pyramid Principle: answer first, SCQ, grouping). Use only when the user explicitly invokes barbara-minto-communication, or asks for a \"Minto review\", \"Barbara Minto review\", or \"Communication review\" by name. Never apply it on your own initiative."
 ---
 
 # Barbara Minto Review (Communication)

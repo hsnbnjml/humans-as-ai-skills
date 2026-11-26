@@ -1,6 +1,6 @@
 ---
-name: matthew-dixon-customer-effort
-description: "Use only when the user explicitly invokes matthew-dixon-customer-effort, or asks for a \"Dixon review\", \"Matthew Dixon review\", or \"Customer Effort review\" by name. Never apply it on your own initiative."
+name: "matthew-dixon-customer-effort"
+description: "Customer support review or design: channels, replies, help content, repeat contacts, support metrics (customer effort). Use only when the user explicitly invokes matthew-dixon-customer-effort, or asks for a \"Dixon review\", \"Matthew Dixon review\", or \"Customer Effort review\" by name. Never apply it on your own initiative."
 ---
 
 # Matthew Dixon Review (Customer Effort & Support)

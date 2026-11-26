@@ -1,6 +1,6 @@
 ---
-name: troy-hunt-web-security
-description: "Use only when the user explicitly invokes troy-hunt-web-security, or asks for a \"Hunt review\", \"Troy Hunt review\", \"Web security review\", \"Security review\", or \"Breach review\" by name. Never apply it on your own initiative."
+name: "troy-hunt-web-security"
+description: "Defensive web security review of an app, API, auth flow or data handling (credentials, data exposure, breach readiness). Use only when the user explicitly invokes troy-hunt-web-security, or asks for a \"Hunt review\", \"Troy Hunt review\", \"Web security review\", \"Security review\", or \"Breach review\" by name. Never apply it on your own initiative."
 ---
 
 # Troy Hunt Review (Web Security & Breach Practice)
@@ -24,7 +24,7 @@ Read the actual code and config: auth, sessions, headers, secrets, logging, depe
 Choose the lenses that genuinely apply. If the surface is small and already well-handled, say so plainly.
 
 **1. Credentials and sessions**
-- How are passwords stored — algorithm, cost, salt? Anything reversible or unsalted?
+- How are passwords stored: algorithm, cost, salt? Anything reversible or unsalted?
 - Is MFA available, and is it enforced where it matters?
 - How long do sessions live, where are tokens stored, and can they be revoked?
 - Do reset and invite flows leak whether an account exists?

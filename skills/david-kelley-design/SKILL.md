@@ -1,6 +1,6 @@
 ---
-name: david-kelley-design
-description: "Use only when the user explicitly invokes david-kelley-design, or asks for a \"Kelley review\", \"David Kelley review\", or \"Design review\" by name. Never apply it on your own initiative."
+name: "david-kelley-design"
+description: "Design thinking review or workshop: whether a plan, guide, feature or rollout solves the right problem for real users (empathy, framing, prototype, test). Use only when the user explicitly invokes david-kelley-design, or asks for a \"Kelley review\", \"David Kelley review\", or \"Design review\" by name. Never apply it on your own initiative."
 ---
 
 # David Kelley Review (Design Thinking & Innovation)

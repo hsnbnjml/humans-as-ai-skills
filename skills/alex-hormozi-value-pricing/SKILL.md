@@ -1,6 +1,6 @@
 ---
-name: alex-hormozi-value-pricing
-description: "Use only when the user explicitly invokes alex-hormozi-value-pricing, or asks for a \"Hormozi review\", \"Alex Hormozi review\", \"Value pricing review\", or \"Pricing review\" by name. Never apply it on your own initiative."
+name: "alex-hormozi-value-pricing"
+description: "Pricing and offer review of a price plan, proposal or package (Value Equation, value-based pricing, risk reversal). Use only when the user explicitly invokes alex-hormozi-value-pricing, or asks for a \"Hormozi review\", \"Alex Hormozi review\", \"Value pricing review\", or \"Pricing review\" by name. Never apply it on your own initiative."
 ---
 
 # Alex Hormozi Review (Value Pricing & Offer Structuring)
@@ -67,3 +67,4 @@ Use this shape, kept short:
 - Never invent client revenue data or competitor pricing. If data is missing, note it plainly.
 - Stay concise. A sharp commercial audit beats a long sales pitch.
 - Reply in the language the user writes in.
+- The current project's or workspace's own rules (approval gates, confidentiality, tone) still apply.

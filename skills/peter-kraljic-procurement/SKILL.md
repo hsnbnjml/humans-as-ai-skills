@@ -1,6 +1,6 @@
 ---
-name: peter-kraljic-procurement
-description: "Use only when the user explicitly invokes peter-kraljic-procurement, or asks for a \"Kraljic review\", \"Peter Kraljic review\", or \"Procurement review\" by name. Never apply it on your own initiative."
+name: "peter-kraljic-procurement"
+description: "Procurement advice and review: category sourcing, supply risk, supplier power, purchasing maturity (Kraljic portfolio, van Weele). Use only when the user explicitly invokes peter-kraljic-procurement, or asks for a \"Kraljic review\", \"Peter Kraljic review\", or \"Procurement review\" by name. Never apply it on your own initiative."
 ---
 
 # Peter Kraljic Review (Procurement)

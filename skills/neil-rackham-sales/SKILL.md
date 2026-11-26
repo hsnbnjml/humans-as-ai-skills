@@ -1,6 +1,6 @@
 ---
-name: neil-rackham-sales
-description: "Use only when the user explicitly invokes neil-rackham-sales, or asks for a \"Rackham review\", \"Neil Rackham review\", \"SPIN review\", or \"Sales review\" by name. Never apply it on your own initiative."
+name: "neil-rackham-sales"
+description: "Sales discovery review of a call plan, script, questionnaire or demo outline (SPIN questions). Use only when the user explicitly invokes neil-rackham-sales, or asks for a \"Rackham review\", \"Neil Rackham review\", \"SPIN review\", or \"Sales review\" by name. Never apply it on your own initiative."
 ---
 
 # Neil Rackham Review (Consultative Sales & SPIN Discovery)
@@ -33,7 +33,7 @@ Choose one to three lenses that genuinely apply. If none fits, say so plainly in
 - Are we assuming they are unhappy with their current tools, or are we helping them express where the system is creaking?
 - Does the buyer acknowledge that a problem actually exists, or are we trying to convince them they have one?
 
-**3. Implication Questions (The Cost of Inaction — The Critical Step)**
+**3. Implication Questions (The Cost of Inaction: The Critical Step)**
 - Have we explored the downstream consequences, financial waste, time loss, and emotional friction caused by the problem?
 - Does the buyer feel the true magnitude and cost of leaving the problem unaddressed ("If this happens 5 times a week, what does that cost you in overtime and lost clients over a quarter?")?
 - Are we helping small, annoying problems become urgent, justifiable priorities?
@@ -70,3 +70,4 @@ Use this shape, kept short:
 - Never invent prospect reactions or budget constraints. If evidence is thin, state it as an assumption.
 - Stay concise. A sharp sales discovery critique beats a generic sales script.
 - Reply in the language the user writes in.
+- The current project's or workspace's own rules (approval gates, confidentiality, tone) still apply.

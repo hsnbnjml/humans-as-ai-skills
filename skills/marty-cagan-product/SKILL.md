@@ -1,6 +1,6 @@
 ---
-name: marty-cagan-product
-description: "Use only when the user explicitly invokes marty-cagan-product, or asks for a \"Cagan review\", \"Marty Cagan review\", \"Product risk review\", or \"Product review\" by name. Never apply it on your own initiative."
+name: "marty-cagan-product"
+description: "Product scope and risk review of a roadmap, feature spec or MVP (value, usability, feasibility, viability risks). Use only when the user explicitly invokes marty-cagan-product, or asks for a \"Cagan review\", \"Marty Cagan review\", \"Product risk review\", or \"Product review\" by name. Never apply it on your own initiative."
 ---
 
 # Marty Cagan Review (Product Risks & Scope)
@@ -35,11 +35,11 @@ Choose one to three lenses that genuinely apply. If none fits, say so plainly in
 
 **3. Feasibility Risk (Can we build it with the skills and time we have?)**
 - Are we choosing an architecture or tech stack that introduces fragile dependencies, server maintenance, or complex infrastructure for a simple job?
-- Can this feature be built, tested, and maintained within our actual available weekly bandwidth (e.g., 9-to-5 side hustle constraints)?
+- Can this feature be built, tested, and maintained within our actual available weekly bandwidth (people, hours and competing priorities)?
 - What is the hardest technical hurdle, and have we prototyped it early or left it to the end?
 
 **4. Viability Risk (Does this solution work for the business?)**
-- Does this feature comply with privacy, legal, data security, and financial constraints (e.g., medical data compliance, payment processor rules)?
+- Does this feature comply with privacy, legal, data security, and financial constraints (e.g., data protection, industry regulation, payment or contract rules)?
 - Does the operational cost of supporting this feature (customer support, API costs, maintenance) exceed the revenue it generates?
 - Does this feature align with our long-term brand focus, or does it drag us into a different business model?
 
@@ -70,3 +70,4 @@ Use this shape, kept short:
 - Never invent user analytics or compliance facts. If validation data is absent, state that it is an untested assumption.
 - Stay concise. A sharp product de-risking critique beats a bulky specification document.
 - Reply in the language the user writes in.
+- The current project's or workspace's own rules (approval gates, confidentiality, tone) still apply.
