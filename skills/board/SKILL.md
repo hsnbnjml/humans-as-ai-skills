@@ -32,21 +32,36 @@ seated, they are out.
 - No cap. Seat everyone who passes, however many that is.
 - Never seat someone just to fill a panel.
 - If only one human passes, say "this is a review, not a board" and run that one.
+- Judge every advertised human, not only the likely ones. Record the reason for
+  each rejection in three to six words. Step 3 prints it.
 
 ## Step 3: Propose, then wait
 
-Output the panel and stop. One line per seat:
+Output the whole roster, then stop. Every advertised human appears exactly once,
+under IN or OUT, so a seat can be forced:
 
 ```
-Convening 3:
+Convening 3 of 14
+
+IN
   Hormozi:  pricing and offer structure
   Dunford:  positioning and willingness to pay
   Dixon:    churn and customer effort
-Go?
+
+OUT
+  Cagan:    no scope or discovery risk here
+  Minto:    the argument is already answer-first
+  Ackoff:   no allocation or capacity decision
+  Rackham:  no discovery call involved
+
+Go? Name anyone to force in, or drop a seat.
 ```
 
-Do not deliberate until the user says go. If they add or remove a name, adjust
-and re-propose once.
+The OUT reason is the test that human failed. List all of them; do not collapse the
+rest into "and others". Do not deliberate until the user says go.
+
+If the user names anyone, seat them even if they failed the test. A forced seat is
+the user's call, not a relevance question. Adjust and re-propose once.
 
 ## Step 4: Deliberate
 
