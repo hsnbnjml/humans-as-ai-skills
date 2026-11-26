@@ -2,9 +2,56 @@
 
 > Masters are scarce. Their methods are not.
 
-Each folder in this repo packages one expert human's frameworks as a self-contained AI agent skill: a structured, repeatable review process any agent can run. **Not persona chatbots.** No roleplay, no invented quotes. Every skill uses the human's *method*, applied to your actual context.
+**A board of expert methods for one decision.** Eighteen independent lenses on the call you are about to make, one recommendation that keeps the disagreement instead of averaging it away, and a list of who was left out and why.
 
-## The collection
+Not persona chatbots. No roleplay, no invented quotes, no invented data. Every seat is a published method applied to your actual context.
+
+## The problem
+
+You ask one model for advice on a real decision and get one confident answer. You cannot tell what it missed, and you are about to act on it.
+
+The board asks the same question through several methods at once. Each seat states a position, the one assumption it rests on, and what would prove it wrong. When two seats disagree, the board names the condition under which each one wins instead of splitting the difference. Averaging expert advice produces mush.
+
+## How to use it
+
+1. **Install the skills.** Copy the folders in `skills/` into your agent's skills directory, for example `~/.config/opencode/skills/`.
+2. **Name the decision.** `@board should we cut the free tier?`
+3. **Approve the panel.** The board lists every human it can seat, IN or OUT with a reason. Force seats in, drop them, then say go.
+
+## A real run
+
+The proposal shows the whole roster, so an exclusion you disagree with is visible and overridable:
+
+```
+Convening 3 of 18
+
+IN
+  Hormozi:  pricing and offer structure
+  Dunford:  positioning and willingness to pay
+  Dixon:    churn and customer effort
+
+OUT
+  Cagan:    no scope or delivery risk here
+  Minto:    the argument is already answer-first
+  Ackoff:   no allocation or capacity decision
+  Rackham:  no discovery call involved
+
+Go? Name anyone to force in, or drop a seat.
+```
+
+The other 14 are listed the same way, each with the test it failed. Naming anyone seats them: a forced seat is your call, not a relevance question.
+
+Each seat then answers in three lines, and the board closes with:
+
+```
+Call: keep the free tier, cap it at one seat.
+Strongest dissent: the value-pricing lens says a free tier anchors price at zero.
+What would change it: free-to-paid conversion under 2% after 90 days.
+```
+
+Attribution is by method, not persona. You get "the value-pricing lens says", never "I am Hormozi".
+
+## The methods it can seat
 
 | Skill | Domain | The human | Invoke by |
 |-------|--------|-----------|-----------|
@@ -26,13 +73,16 @@ Each folder in this repo packages one expert human's frameworks as a self-contai
 | [`richard-feynman-code-translation`](skills/richard-feynman-code-translation/SKILL.md) | Plain-English Code Walkthrough | Richard Feynman (The Feynman Technique) | "Feynman translation", "Plain English code", "Code walkthrough" |
 | [`adam-shostack-threat-modeling`](skills/adam-shostack-threat-modeling/SKILL.md) | Threat Modeling & STRIDE | Adam Shostack (*Threat Modeling: Designing for Security*) | "Shostack review", "Threat model", "STRIDE review" |
 | [`troy-hunt-web-security`](skills/troy-hunt-web-security/SKILL.md) | Web Security & Breach Practice | Troy Hunt (Have I Been Pwned) | "Hunt review", "Web security review", "Breach review" |
-| [`board`](skills/board/SKILL.md) | Convening the board | The collection, together | "@board", "board review" |
 
-**Example:** point an agent at a plan and say *"give me a Christensen review of this"*: it picks the 1-3 Christensen lenses that genuinely apply, grounds the critique in your real workspace context, and surfaces the strongest blind spot, what it costs to ignore, and two or three ways to redirect. It will not pick for you unless asked.
+Any of them also runs alone: point an agent at a plan and say *"give me a Dunford review of this"*.
 
-## Why "explicit invocation only"
+The panel comes from what your agent advertises, not from a roster written in the board. Install a new human and it is eligible on the next run, with no edit to `skills/board/SKILL.md`.
+
+## Why explicit invocation only
 
 Every skill runs **only when you call it by name**. Ordinary requests stay ordinary: no skill hijacks them. This is built into every file's trigger and description.
+
+It is also what makes a board mean something. A seat is summoned deliberately and never volunteers, so the panel is a decision you asked for rather than advice that arrived uninvited. Invoking `board` is the request that authorizes the seats it convenes.
 
 ## Shared anatomy
 
@@ -49,7 +99,7 @@ All skills follow the same shape:
 
 1. Pick one human with clearly written frameworks (one anchor author; co-authors allowed in parentheses)
 2. Follow the shared anatomy above; name the skill `<firstname>-<lastname>-<specialization>`
-3. The description **must** say: use only when explicitly invoked, never on your own initiative
+3. The description **must** say: use only when explicitly invoked, never on your own initiative. Lead with the domain, so the board can tell what the method is for. Trigger phrases alone make a skill unseatable.
 4. Use the method, not the persona: no roleplay, no invented quotes or data
 5. Open a PR with the human added to the table above
 
